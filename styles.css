@@ -1,5 +1,5 @@
 body {
     margin: 0;
-    background: pink;
+    background: linear-gradient(white, pink);
     text-align: center;
 }
