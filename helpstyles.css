@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    width: 75px;
+    cursor: pointer;
+    color: rgba(0,0,0,0.75);
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*navbar stuff*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/*Adjust Each Section's size individually*/
+
+#A{
+    background:#F2D2BD;
+    width: 100%;
+    float: left;
+    height: 200vh;
+    position: relative;
+}
+
+#B{
+    background:#ebab80;
+    width: 100%;
+    float: left;
+    height: 200vh;
+    position: relative;
+}
+
+#C{
+    background:#AF6E4D;
+    width: 100%;
+    float: left;
+    height: 200vh;
+    position: relative;
+}
+
+#D{
+    background:#846C5B;
+    width: 100%;
+    float: left;
+    height: 200vh;
+    position: relative;
+}
+
+#E{
+    background:#815b3f;
+    width: 100%;
+    float: left;
+    height: 200vh;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 115px;
+    left: 5%
+}
+
+p{
+    position: absolute;
+    top: 150px;
+    left: 7.5%;
+}
