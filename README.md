@@ -1,3 +1,3 @@
 # ViieDesune
 
-Oh yeah I hack the site sometimes when I'm playing around
+Oh yeah I play around with the site sometimes, don't worry about it.
